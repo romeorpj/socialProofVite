@@ -1,15 +1,16 @@
 
 import './App.css'
+import BottomSection from './components/BottomSection'
+import TopSection from './components/TopSection'
 
 function App() {
 
   return (
     <>
       <main>
-        {/* INSERT TOP SECTION */}
-        <section className="bottom-section">
-
-        </section>
+        <TopSection/>
+        
+        <BottomSection/>
       </main>
     </>
   )
