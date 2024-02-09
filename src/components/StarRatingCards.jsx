@@ -7,7 +7,7 @@ const StarRatingCards = () => {
 	// Function to render icons inside a div using .map()
 	const renderIcons = () => {
 		return [...Array(numIcons)].map((_,index) => (
-			<span key={index}><img src={iconStar} alt="star rating" /></span>
+				<img key={index} src={iconStar} alt="star rating" />
 		))
 	}
 
@@ -17,13 +17,13 @@ const StarRatingCards = () => {
 		return (
 			[...Array(numRatings)].map((_,index) => (
 				<div key={index} className={`ratings-${index + 1} ratings-box`}>
-					{renderIcons()}
+					<div className="star-container">{renderIcons()}</div>
 					<p>Rated 5 Stars in Review</p>
 				</div>
 			))
 		)
 	}
-	
+
 	return (renderRatings())
 }
 

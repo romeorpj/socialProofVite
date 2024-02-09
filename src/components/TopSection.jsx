@@ -1,16 +1,17 @@
+import StarRatingCards from "./StarRatingCards"
 
-	
+
 const TopSection = () => {
 
 	return (
 		<>
 			<section className='top-section'>
-				<section className="first-section">
-					<p className="title">10,000 of our users love our products</p>
+				<section className="left-container">
+					<h1>10,000 of our users love our products.</h1>
 					<p>We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.</p>
 				</section>
-				<section className="second-section">
-					{renderRatings()}
+				<section className="right-container">
+					<StarRatingCards />
 				</section>
 			</section>
 		</>
