@@ -1,8 +1,6 @@
 import StarRatingCards from "./StarRatingCards"
 
-
 const TopSection = () => {
-
 	return (
 		<>
 			<section className='top-section'>

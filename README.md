@@ -1,9 +1,7 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+npm run dev to run.
 
-Currently, two official plugins are available:
+This was just a simple project i did for the purpose of playing around with some old school traditional css. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# socialProofVite
+In the real world i would have split the css files and made them more modular. 

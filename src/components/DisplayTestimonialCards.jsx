@@ -1,6 +1,3 @@
-/* eslint-disable no-useless-escape */
-
-
 const DisplayTestimonialCards = ({usersList}) => {
 	const asciiOpenQuote = "\u201C"
 	const asciiCloseQuote = "\u201D"
@@ -17,7 +14,9 @@ const DisplayTestimonialCards = ({usersList}) => {
 							<p>{status}</p>
 						</div>
 					</div>
-					<p className="testimonial-section">{`${asciiOpenQuote} ${testimonial} ${asciiCloseQuote}`}</p>
+					<p className="testimonial-section">
+						{`${asciiOpenQuote} ${testimonial} ${asciiCloseQuote}`}
+					</p>
 				</div>
 			)
 		}
